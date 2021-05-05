@@ -4,9 +4,9 @@
   /*padding-top: px;*/
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 90%;
-  height: 90%;
-  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  margin: 50px auto;
   align-content: center;
   background-color: #f8dc81;
   border-radius: 10px;
@@ -22,7 +22,7 @@
   padding-bottom: 20px;
 }
 .img-circle {
-  width: 150px;
+  width: 90%;
   border-radius: 50%;
   border: 5px solid rgba(33, 65, 81, 0.68);
   justify-content: center;
@@ -30,8 +30,9 @@
 
 i {
   font-size: 50px;
-  letter-spacing: 20px;
   color: #214151;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 @media (max-width: 960px) {
@@ -40,9 +41,6 @@ i {
     width: 700px;
   }
 
-  .img-circle {
-  width: 150px;
-}
    h1 {
     font-size: 18px;
     line-spacing: 0;
@@ -58,7 +56,6 @@ i {
 
   i {
   font-size: 50px;
-  letter-spacing: 20px;
   }
 }
 @media (max-width: 720px) {
@@ -67,9 +64,7 @@ i {
     width: 500px;
   }
 
-  .img-circle {
-  width: 80px;
-}
+
   h1 {
     font-size: 15px;
   }
@@ -92,9 +87,7 @@ i {
   .container {
     width: 300px;
   }
-  .img-circle {
-  width: 50px;
-}
+
    h1 {
     font-size: 12px;
   }
@@ -123,17 +116,27 @@ i {
   /*position: relative;*/
   /*top: 20px;*/
   margin: 20px auto;
-  width: 90%;
+  width: 70%;
   border-radius: 10px;
-  background-color: #eff7e1;
+  /*background-color: #eff7e1;*/
 }
 .img-card {
-  margin: 20px 20px;
-  background-color: #eff7e1;
+  margin: auto;
   /*padding: 20px;*/
   justify-content: center;
-  width: 160px;
-  height: 160px;
+  padding: 10px;
+  width: 22%;
+  height: 22%;
+  border-radius: 5px;
+}
+
+.less-wide {
+  width: 50%;
+  margin: auto;
+}
+
+.yellow-text {
+  color: #f8dc81;
 }
 
 .text-center {
@@ -141,11 +144,11 @@ i {
 }
 
 .box-shadow-gray {
-  box-shadow: 3px 3px 5px #214151;
+  box-shadow: 5px 5px 5px #214151;
 }
 
 .box-shadow-white {
-  box-shadow: 3px 3px 5px white;
+  box-shadow: 5px 5px 5px white;
 }
 /*.card {
   width: 100%;
@@ -167,14 +170,22 @@ i {
 .black-bg-white-font {
   background-color: #214151;
   color: #eff7e1;
-  border-radius: 5px;
+  border-radius: 5px;s
 }
 
 .img-text {
   width: 70%;
   margin: auto 0;
+  text-align: center;
 }
 
+.blue-bg {
+  background-color: #a2d0c1;
+}
+
+.dark-bg {
+  background-color: #214151;
+}
 .red-link {
   color: rgb(255,0,0);
   background-color:rgb(255,224, 225) ;
@@ -182,7 +193,7 @@ i {
   text-decoration: none;
 }
 body {
-  background-color: #214151;
+  background-color: #eff7e1;
   /*font-family:'Saira', sans-serif;*/
   font-family: 'Rambla', sans-serif;
   color: #214151;
@@ -196,5 +207,7 @@ h1 {
   /*line-height: 30px;*/
 }
 
-
+i:hover {
+  background-color: #f8dc81;
+}
 
